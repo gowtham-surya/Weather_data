@@ -1,0 +1,37 @@
+.container.entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0px !important;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/Slide1.JPG);
+  background-position: 0px 3px;
+  background-size: cover;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* box-shadow: 7px 7px 10px #c1c1c1, inset 2px 2px 15px #d7d7d7; */
+  max-width: 700px;
+  width: 700px;
+}
+.card h5,
+.card label {
+  margin-bottom: 1rem;
+}
+
+.card input {
+  padding: 0.6rem;
+  background-color: #c1c1c1d4;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.card button {
+  width: 250px;
+  margin: 10px auto;
+}
