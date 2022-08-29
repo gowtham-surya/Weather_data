@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
 import './App.css';
@@ -6,7 +6,7 @@ import './assets/css/grid.css';
 import treeHappy from './assets/images/tree-happy.png';
 import Header from './components/Header';
 
-const Port_A = () => {
+const App = () => {
   const [entry, setEntry] = useState('No');
 
   const weatherTitle = [
@@ -315,4 +315,4 @@ const Port_A = () => {
   );
 };
 
-export default Port_A;
+export default App;
