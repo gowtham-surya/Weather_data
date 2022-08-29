@@ -188,7 +188,7 @@ const App = () => {
                     <button className="btn">Good</button>
                   </div>
                   <div className="flexbox col-6">
-                    <h1>38</h1>
+                    <h1>72</h1>
                     <img src={treeHappy} width="200px" alt="Tree Happy"></img>
                   </div>
                 </div>
