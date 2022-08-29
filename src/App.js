@@ -117,7 +117,7 @@ const App = () => {
 
   const [weather, setWeather] = useState(weatherTitle);
   const [pollution, setPollution] = useState(airPollutants);
-  const [axdata, setaxdata] = useState();
+  // const [axdata, setaxdata] = useState();
 
   useEffect(() => {
     setInterval(() => {
@@ -170,7 +170,7 @@ const App = () => {
         },
       ]);
     }, 5000);
-  }, [axdata]);
+  }, []);
 
   return (
     <div>
@@ -304,9 +304,6 @@ const App = () => {
               width="100%"
               height="600px"
             ></iframe>
-          </div>
-          <div className="card-container col-12">
-            <p>{Error}</p>
           </div>
         </div>
         <div className="body_background"></div>
