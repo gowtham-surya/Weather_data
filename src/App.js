@@ -184,7 +184,7 @@ const App = () => {
                 <h5>Real-time air pollution in Port</h5>
                 <div className="card-details row">
                   <div className="flexbox fdir-col col-6">
-                    <h5>Last Update: 29 Aug 2022, 02:20pm</h5>
+                    <h5>Last Update: 30 sept 2022, 02:20pm</h5>
                     <button className="btn">Good</button>
                   </div>
                   <div className="flexbox col-6">
