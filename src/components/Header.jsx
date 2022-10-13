@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../assets/images/bit.png';
-import sih from '../assets/images/sih.jpg';
 import '../assets/css/header.css';
 
 const Header = () => {
@@ -20,14 +19,7 @@ const Header = () => {
                       width="50"
                       height="38.58"
                     ></img>
-                    <h3>Evolvers - SIH 2022</h3>
-                    <img
-                      src={sih}
-                      alt="SIH"
-                      width="100"
-                      className="aqi_logo"
-                      height="38.58"
-                    ></img>
+                    <h3>Hectors</h3>
                   </a>
                 </div>
               </div>
