@@ -130,17 +130,17 @@ const App = () => {
         {
           name: 'Temperature',
           image: 'bx bxs-hot temp-color',
-          value: `${(24.6 + Math.random() * (26.3 - 24.6)).toFixed(2)}°C`,
+          value: `${(23.6 + Math.random() * (24.3 - 23.6)).toFixed(2)}°C`,
         },
         {
           name: 'Humidity',
           image: 'bx bx-cloud-rain rain-color',
-          value: `${(78 + Math.random() * (79 - 78)).toFixed(0)}%`,
+          value: `${(78 + Math.random() * (80 - 78)).toFixed(0)}%`,
         },
         {
           name: 'Ozone level',
           image: 'bx bx-wind rain-color',
-          value: `${(10.46 + Math.random() * (11.96 - 10.46)).toFixed(2)}%`,
+          value: `${(7.8+ Math.random() * (8.96 - 7.8)).toFixed(2)}%`,
         },
       ]);
       setPollution([
@@ -184,11 +184,11 @@ const App = () => {
                 <h5>Real-time air pollution in Port</h5>
                 <div className="card-details row">
                   <div className="flexbox fdir-col col-6">
-                    <h5>Last Update: 30 sept 2022, 02:20pm</h5>
+                    <h5>Last Update: 15 oct 2022, 02:20pm</h5>
                     <button className="btn">Good</button>
                   </div>
                   <div className="flexbox col-6">
-                    <h1>46</h1>
+                    <h1>42</h1>
                     <img src={treeHappy} width="200px" alt="Tree Happy"></img>
                   </div>
                 </div>
